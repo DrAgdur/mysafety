@@ -71,6 +71,9 @@ class mysafetySpider(scrapy.Spider):
         newprod['color'] = ""
         newprod['shipping'] = ""
         newprod['shippingWeight'] = ""
+        newprod['sizes'] = [None]
+        newprod['gtin'] = [None]
+        newprod['mpn'] = None
         newprod['brand'] = response.xpath('//div[@class="header__logo"]/a/img/@title').get()
         newprod['platformvariantid'] = "1"
 
