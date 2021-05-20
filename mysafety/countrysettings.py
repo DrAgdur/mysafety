@@ -1,6 +1,6 @@
 countries = [
     {
-        "storename": "MySafety",
+        "storename": "My Safety",
         "storeid": "404",
         "currency": "NOK",
         "countrycode": "NO",
